@@ -22,7 +22,7 @@ print("FeHub: Script started.")
 -- Load Orion Library
 local OrionLib
 local success, err = pcall(function()
-    OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+    OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/OrionLibrary/Orion/main/source.lua')))()
 end)
 
 if not success then
